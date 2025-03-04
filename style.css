@@ -1,0 +1,271 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+     font-family: sans-serif;
+}
+#nav-bar
+{
+     background-color: #FFFFFF;
+     position: sticky;
+     top: 0;
+     z-index: 10;
+}
+.navbar-brand{
+     margin-left: 50px;
+     color: #563d7c !important;
+}
+.navbar-toggler-icon
+{
+     filter: brightness(white);
+}
+.nav-item a{
+     color: #563d7c !important;
+}
+.form 
+{
+     margin-right: 70px;
+}
+.nav-items-link
+{
+    font-size: 17px;    
+}
+.navbar-toggler
+{
+      outline: none;
+      border: none;
+
+}
+/* tech section */
+
+#tech
+{
+     background-color: #563d7c;
+}
+.corolib-logo
+{
+    width: 480px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.logo-description
+{
+     color: #fff;
+     font-size: 40px;
+     margin-bottom: 200px;
+}
+/* Themes... */
+#themes
+{
+    padding: 100px 0px;
+    color: #555555;
+}
+
+#themes h2{
+     font-size: 40px;
+     margin-bottom: 20px;
+}
+.theme-description
+{   
+    font-size: 21px !important;
+    font-weight: 300;
+    margin-bottom: 80px !important;
+    color: #555555;
+}
+#themes h3{
+     margin-top: 15px;
+     color: #555555;
+}
+.theme-bottom-description{
+     color: #555555 ;
+     font-size: 21px;
+     margin-top: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.theme-bottom-description a
+{
+     text-decoration: none;
+}
+.theme-bottom-description a:hover
+{
+     text-decoration:underline;
+}
+/* premium section starts.. */
+#premium 
+{
+     padding: 100px 0px;
+     background-color: #f9f9f9;
+}
+#premium  h1{
+      color: #555555;
+      text-align: center;
+}
+.premium-description
+{
+      text-align: center;
+      margin: 20px 0px;
+      margin-bottom: 70px;
+      font-size: 21px;
+      color: #555555;
+      font-weight: 300;
+}
+#premium li a{
+      color: #337ab7;
+}
+#premium li a:hover{
+     color: #563d7c;
+}
+#premium ul{
+      margin-left: 70px;
+}
+
+/* Performance section.. */
+#performance
+{
+     padding: 100px 0px;    
+}
+#performance h2{
+      font-size: 40px;
+      font-weight: 300;
+      color: #555555;
+      margin-bottom: 17px;
+}
+.performance-description
+{
+      color: #555555;
+      font-size: 21px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 100px;
+}
+.services
+{
+     font-size: 120px;
+     color: #6f5499;
+     /* font-weight: 300; */
+     line-height: 200;
+     text-align: center;
+}
+.services:hover
+{
+     color: #563d7c;
+}
+#performance h3{
+      font-size: 22px;
+      font-weight: 300;
+      text-align: center;
+      color: #555555;
+      margin-top: 50px;
+}
+.box
+{
+      margin-left: 30px;
+}
+.box p{
+      color: #555555;
+      font-size: 18px;
+      text-align: center;
+}
+
+/* Blog Section Starts... */
+#blog
+{
+     background-color: #f9f9f9;
+     padding: 80px 0;
+}
+#blog h2 
+{
+     color: #555555;
+     font-size: 41px;
+     margin-bottom: 15px;
+}
+.blog-desc
+{
+     color: #555555;
+     font-size: 21px;
+     margin-bottom: 80px;
+}
+strong a{
+      color: #337ab7;
+      text-decoration: none;
+      font-size: 20px;
+}
+
+.ref-desc{
+     font-size: 18px;
+     color: #555555;
+}
+.publish-date
+{
+      color: #555555;
+      font-style: italic;
+}
+
+/* Subscribe section .... */
+#Subscribe 
+{
+      padding: 100px 0px;
+}
+#Subscribe h1{
+      color: #555555;
+      font-size: 40px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+}
+#Subscribe p{
+      color: #555555;
+      margin-bottom: 20px;
+      font-size: 20px;
+}
+.email
+{
+      padding: 10px;
+      width: 41%;
+      border: none;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+      border: 1px solid #999;
+}
+.btn1 
+{
+      padding: 12px  50px;
+      transform: translateX(-5px);
+      border: none;
+      color: white;
+      background-color: #563d7c;
+      /* font-size: 17px; */
+      font-weight: 500;
+}
+.btn1:hover
+{
+   background-color: #6f5499 !important;
+}
+
+.input-details
+{
+      margin-top: 60px;
+}
+
+/* copy right section ... */
+#footer
+{
+     padding: 10px 0px;
+     background-color: #563d7c;
+}
+
+.footer-nav-items a{
+      color: #c1c1c1;;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 15px;
+}
+.footer-nav-items a:hover
+{
+      color: white;
+}
+.copy-right
+{
+      color: #FFFFFF;
+      font-size: 15px;   
+      margin-top: 15px;
+}
